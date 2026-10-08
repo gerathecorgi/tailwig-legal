@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TailWig</title>
+<style>
+:root { color-scheme: light dark; --fg: #1c1c1e; --muted: #6e6e73; --bg: #ffffff; --rule: #d1d1d6; --link: #0a5fcc; }
+@media (prefers-color-scheme: dark) {
+  :root { --fg: #f2f2f7; --muted: #a1a1a6; --bg: #000000; --rule: #38383a; --link: #5aa9ff; }
+}
+body { margin: 0; background: var(--bg); color: var(--fg);
+  font: 17px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-text-size-adjust: 100%; overflow-wrap: anywhere; }
+main { max-width: 680px; margin: 0 auto; padding: 16px 16px 64px; }
+nav { font-size: 15px; color: var(--muted); }
+section + section { border-top: 1px solid var(--rule); margin-top: 48px; }
+h1 { font-size: 28px; line-height: 1.2; margin: 32px 0 8px; }
+h2 { font-size: 20px; line-height: 1.3; margin: 28px 0 8px; }
+ul { padding-left: 1.2em; }
+li { margin: 6px 0; }
+a { color: var(--link); }
+</style>
+</head>
+<body>
+<main>
+<nav><a href="#en">English</a> · <a href="#uk" lang="uk">Українська</a></nav>
+<section id="en" lang="en">
+<h1>TailWig</h1>
+<ul>
+<li><a href="privacy/#en">TailWig Privacy Policy</a></li>
+<li><a href="support/#en">TailWig Support</a></li>
+</ul>
+</section>
+<section id="uk" lang="uk">
+<h1>TailWig</h1>
+<ul>
+<li><a href="privacy/#uk">Політика конфіденційності TailWig</a></li>
+<li><a href="support/#uk">Підтримка TailWig</a></li>
+</ul>
+</section>
+</main>
+</body>
+</html>
